@@ -8,7 +8,7 @@ public class HelloworldController {
     @GetMapping("/")
     public String Hello()
     {
-        return "hello";
+        return "Hello World";
     }
     @GetMapping("/contract")
     public String Contract()
