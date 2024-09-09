@@ -23,4 +23,9 @@ public class PropertiesConfigurationApplication {
 	{
 		return "Nihongo ga omoshiroi";
 	}
+	@GetMapping("/info")
+	public String print()
+	{
+		return "Ma Truong " + ten + " Khoa " + khoa + " Dia chi " + address;
+	}
 }
